@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(137, 228, 228);
+    height: 70px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav {
+    color: white;
+    font-size: 33px;
+    padding: 17px
+}
+
+.mid-nav {
+    justify-content: space-between;
+}
+
+.mid-nav .anchor a {
+    color: red;
+    font-size: 28px;
+    margin-right: 22px;
+    text-decoration: none;
+}
+
+.mid-nav .anchor a:hover {
+    color: white;
+    background-color: rgb(137, 228, 228);
+    padding: 15px;
+    border-bottom: 5px solid orangered;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 18px;
+    padding-bottom: 20px;
+    font-size: 23px;
+    width: 90px;
+    height: 40px;
+}
+
+.sec-1 {
+    height: 400px;
+    background-color: rgb(228, 216, 216);
+}
+
+h4 {
+    font-size: 33px;
+    text-align: center;
+    padding-top: 12px;
+    letter-spacing: 2px;
+}
+
+.grand {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent-1 , .parent-2 , .parent-3 {
+    width: 400px;
+    height: 285px;
+    border: 3px solid red;
+}
+#scroll{
+    
+}
+.parent-4{
+    overflow-y: hidden;
+    overflow-x:auto; 
+    width: 400px;
+    height: 285px;
+    border: 3px solid red;
+}
+.child:nth-child(odd){
+    margin-top: 8px;
+    margin-left: 100px;
+    width: 90px;
+    height: 70px;
+    font-size: 23px;
+    border: 6px solid aqua;
+    background-color: rgba(5, 156, 156, 0.61) ;
+
+}
+.child:nth-child(even){
+    margin-top: 8px;
+    margin-left: 100px;
+    border: 6px solid rgb(255, 0, 0);
+    width: 90px;
+    height: 70px;
+    font-size: 23px;
+    background-color: rgba(255, 140, 8, 0.61) ;
+}
+.sec-3{
+    background-color: rgb(201, 188, 188);
+}
+.parent-5 > .child{
+    margin-top: 8px;
+    margin-left: 800px;
+    width: 90px;
+    height: 70px;
+    font-size: 23px;
+    border: 6px solid aqua;
+    background-color: rgba(5, 156, 156, 0.61) ; 
+}
